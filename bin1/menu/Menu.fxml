@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane focusTraversable="true" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onKeyPressed="#KListener" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="menu.Menu">
+   <children>
+      <ImageView fitHeight="600.0" fitWidth="800.0" focusTraversable="true" layoutY="-2.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <image>
+            <Image url="/view/images/Screen/StartScreen.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="296.0" fitWidth="359.0" layoutX="231.0" layoutY="257.0" visible="false">
+         <image>
+            <Image url="/view/images/Various/panelMenu.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imgSelectIcon3" fitHeight="48.0" fitWidth="48.0" layoutX="260.0" layoutY="479.0" onMousePressed="#HelpScreen" visible="false">
+         <image>
+            <Image url="/view/images/Various/select-icon.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imgStart" fitHeight="60.0" fitWidth="200.0" focusTraversable="true" layoutX="328.0" layoutY="270.0" onKeyPressed="#KListener" onMouseEntered="#zoomStart" onMousePressed="#GameStart">
+         <image>
+            <Image url="/view/images/Screen/Start.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imgSelectIcon" fitHeight="48.0" fitWidth="48.0" layoutX="260.0" layoutY="276.0" onMousePressed="#GameStart" visible="false">
+         <image>
+            <Image url="/view/images/Various/select-icon.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imgSelectIcon1" fitHeight="48.0" fitWidth="48.0" layoutX="260.0" layoutY="341.0" onMousePressed="#CreditsScreen" visible="false">
+         <image>
+            <Image url="/view/images/Various/select-icon.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imgSelectIcon2" fitHeight="48.0" fitWidth="48.0" layoutX="260.0" layoutY="409.0" onMousePressed="#HelpScreen" visible="false">
+         <image>
+            <Image url="/view/images/Various/select-icon.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imgCredits" fitHeight="60.0" fitWidth="200.0" layoutX="324.0" layoutY="473.0" onKeyPressed="#KListener" onMouseEntered="#zoomCredits" onMousePressed="#CreditsScreen">
+         <image>
+            <Image url="/view/images/Screen/Credits.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imgHelp" fitHeight="60.0" fitWidth="155.0" layoutX="347.0" layoutY="403.0" onKeyPressed="#KListener" onMouseEntered="#zoomHelp" onMousePressed="#HelpScreen">
+         <image>
+            <Image url="/view/images/Screen/Help.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imgLoadGame" fitHeight="60.0" fitWidth="200.0" layoutX="324.0" layoutY="335.0" onKeyPressed="#KListener" onMouseEntered="#zoomLoadGame" onMousePressed="#loadGameScreen">
+         <image>
+            <Image url="/view/images/Screen/LoadGame.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

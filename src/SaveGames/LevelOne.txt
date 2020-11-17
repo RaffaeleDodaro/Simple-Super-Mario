@@ -1,0 +1,23 @@
+1
+300
+3
+e e e e e e e e e e e e e e e e e e e e 
+e e e e e e e e e e e e e e e e e e e e 
+e e e e e e e e e e e e e e e e e e e e 
+e e e e e e e e e e e e e e e e e e e e 
+e e e e e e e e e e e e e e e e e e e e 
+e e e e e e e e e e e e e e e e e e e e 
+e e e e e e e e e e e e e e e e e e e e 
+e e e e e e e e e e e e e e e e e e e e 
+e e e e e e e e e e e e e e c e e e e e 
+e e e e e e e e e e e e e e e c e e e e 
+e e e e e e e e e e e e e c w b w e e e 
+e e e e e e w e e e e e e e e e e e e e 
+e e e e w b w e e e e e b e e e e e e e 
+e e e e e e e e e e m b b e e e e e e e 
+e e b e e e e e e e b b b e e e e c e e 
+e e e e e e e e e b b b b e e e e e e s 
+w w w w w w w w w w w w w w w w w w w w 
+w w w w w w w w w w w w w w w w w w w w 
+w w w w w w w w w w w w w w w w w w w w 
+w w w w w w w w w w w w w w w w w w w w 

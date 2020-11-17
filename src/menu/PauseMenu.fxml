@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="300.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="menu.PauseMenu">
+   <children>
+      <ImageView fitHeight="300.0" fitWidth="600.0" focusTraversable="true" onKeyPressed="#KPauseMenu">
+         <image>
+            <Image url="/view/images/Screen/PauseScreen.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="lblImgResume" fitHeight="48.0" fitWidth="150.0" focusTraversable="true" layoutX="249.0" layoutY="94.0" onKeyPressed="#KPauseMenu" onMouseEntered="#zoomResumeIn" onMousePressed="#resumeGame" AnchorPane.bottomAnchor="158.0">
+         <image>
+            <Image url="/view/images/Screen/Resume.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="lblImgExitGame" fitHeight="48.0" fitWidth="150.0" focusTraversable="true" layoutX="249.0" layoutY="150.0" onKeyPressed="#KPauseMenu" onMouseEntered="#zoomExitIn" onMousePressed="#exitGame">
+         <image>
+            <Image url="/view/images/Screen/ExitGame.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imgSelectIcon" fitHeight="48.0" fitWidth="48.0" focusTraversable="true" layoutX="191.0" layoutY="94.0" visible="false">
+         <image>
+            <Image url="/view/images/Various/select-icon.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imgSelectIcon1" fitHeight="48.0" fitWidth="48.0" focusTraversable="true" layoutX="191.0" layoutY="150.0" smooth="false" visible="false">
+         <image>
+            <Image url="/view/images/Various/select-icon.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="lblSaveGame" fitHeight="48.0" fitWidth="150.0" focusTraversable="true" layoutX="249.0" layoutY="208.0" onKeyPressed="#KPauseMenu" onMouseEntered="#zoomSaveIn" onMousePressed="#saveGame">
+         <image>
+            <Image url="/view/images/Screen/SaveGame.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imgSelectIcon2" fitHeight="48.0" fitWidth="48.0" focusTraversable="true" layoutX="191.0" layoutY="208.0" smooth="false" visible="false">
+         <image>
+            <Image url="/view/images/Various/select-icon.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

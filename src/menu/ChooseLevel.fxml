@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import java.lang.*?>
+<?import javafx.scene.image.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onKeyPressed="#KListener" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="menu.ChooseLevelMenu">
+   <children>
+      <ImageView fitHeight="600.0" fitWidth="800.0" focusTraversable="true">
+         <image>
+            <Image url="/view/images/Screen/ChooseLevel.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imgSelectIcon1" fitHeight="48.0" fitWidth="48.0" focusTraversable="true" layoutX="234.0" layoutY="223.0" visible="false">
+         <image>
+            <Image url="/view/images/Various/select-icon.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imgSelectIcon2" fitHeight="48.0" fitWidth="48.0" focusTraversable="true" layoutX="234.0" layoutY="314.0" visible="false">
+         <image>
+            <Image url="/view/images/Various/select-icon.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imgLevel2" fitHeight="48.0" fitWidth="200.0" focusTraversable="true" layoutX="300.0" layoutY="314.0" onKeyPressed="#KListener" onMouseEntered="#zoomLevel2" onMousePressed="#loadLevel2">
+         <image>
+            <Image url="/view/images/Screen/Level2.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imgLevel1" fitHeight="48.0" fitWidth="200.0" focusTraversable="true" layoutX="300.0" layoutY="223.0" onKeyPressed="#KListener" onMouseEntered="#zoomLevel1" onMousePressed="#loadLevel1">
+         <image>
+            <Image url="/view/images/Screen/Level1.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="467.0" layoutY="543.0" text="ESC TO CLOSE THIS WINDOW" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

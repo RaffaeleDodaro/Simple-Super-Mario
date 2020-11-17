@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane focusTraversable="true" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onKeyPressed="#KSave" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="utils.SaveGame">
+   <children>
+      <ImageView fitHeight="400.0" fitWidth="600.0" layoutY="190.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <image>
+            <Image url="/view/images/Screen/unnamed.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="243.0" layoutY="14.0" text="Save" textFill="WHITE">
+         <font>
+            <Font size="56.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtNameSaveGame" layoutX="263.0" layoutY="115.0" onKeyPressed="#KSave" />
+      <Label layoutX="74.0" layoutY="113.0" text="Name save game" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnSave" layoutX="440.0" layoutY="115.0" mnemonicParsing="false" onKeyPressed="#KSave" onMousePressed="#saveClick" prefHeight="25.0" prefWidth="70.0" text="Save">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+      <Label fx:id="lblSaveStatus" focusTraversable="false" layoutX="85.0" layoutY="200.0" text="Save correctly" textFill="RED" visible="false">
+         <font>
+            <Font name="System Bold" size="27.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
